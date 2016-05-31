@@ -6,7 +6,7 @@ function bubbleSort(array) {
         iterations += 1;
         swapped = false;
 
-        for(var i=0; i<array.length; i++) {
+        for(var i = 0; i < array.length; i++) {
             if(array[i+1] < array[i]) {
                 var temp = array[i];
                 array[i] = array[i+1];
